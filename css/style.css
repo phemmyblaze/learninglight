@@ -35,7 +35,7 @@ body {
 }
 
 .navigation {
-    border-right: 1px solid #000;
+    /* border-right: 1px solid #000; */
     padding-left: 2rem;
     
 }
@@ -120,6 +120,7 @@ ion-icon {
 .homework {
     border-top: 1px solid #000;
     color: #6F00FF;
+    margin-right: 2rem;
 }
 
 .homeworks {
@@ -189,6 +190,7 @@ ion-icon {
 
 .main-content {
     width: 100%;
+    border-left: 1px solid #000;
     /* background-color: red; */
 }
 
@@ -434,6 +436,195 @@ input {
 .details2-title ion-icon {
     color: #6F00FF;
 }
+
+.video {
+    background: linear-gradient(to right,
+
+    #5A61E9,
+    #5A61E9 60%,
+    #5057DE 60%,
+    #5057DE 73.33%,
+    #4249D1 73.33%,
+    #4249D1 86.3%,
+    #383FBB 86.3%,
+    #383FBB);
+
+padding: 2rem;
+border-radius: 1rem;
+color: #ffffff;
+width: 45rem;
+}
+
+.video-heading {
+    margin-bottom: 18rem;
+}
+
+.video-heading h3 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-top: 1.2rem;
+}
+.video-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video-content img {
+    width: 5.5rem;
+    border-radius: 2rem;
+}
+
+.video-content {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.video-author {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.video-author p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.video-author-position {
+    opacity: 0.5rem;
+    color: #808080;
+}
+
+.video-details h6 {
+    background-color: #2F3163;
+    padding: 1rem;
+    font-weight: 300;
+    font-size: 1.4rem;
+    border-radius: .8rem;
+    font-size: 1.3rem;
+}
+
+.video-sub {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.video-sub-details {
+    background-color: #5A61E9;
+    padding: 1.7rem;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+.video-sub-author img {
+    width: 4.4rem;
+    border-radius: 1rem;
+}
+
+.video-sub-author {
+    display: flex;
+    gap: 1.4rem;
+    align-items: center;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    background-blend-mode: overlay;
+    position: relative;
+}
+
+.video-sub-title {
+    margin-bottom: 5rem;
+}
+
+.video-sub-title h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    /* line-height: 1rem; */
+}
+
+.gap {
+    gap: .8rem;
+}
+
+.polygon {
+    border-bottom: 8.8rem solid #020323;
+    border-right: 3.5rem solid transparent;
+    border-left: 5.8rem solid transparent;
+    border-bottom-right-radius: 2.5rem;
+    opacity: 30%;
+    top: -2rem;
+    right: -2rem;
+    mix-blend-mode: color-burn;
+    position: absolute;
+}
+
+.diamond {
+    clip-path: polygon(50% 0%, 69% 30%, 68% 93%, 38% 29%);
+    background-color: #3d43af;
+    opacity: 40%;
+    width: 8rem;
+    height: 10.6rem;
+    position: absolute;
+    right: -3.9rem;
+}
+
+.details2-title p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.teachers {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.teacher-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teacher-detail img {
+    width: 6.5rem;
+    border-radius: 50%;
+}
+.teacher-detail  {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.teachers-profile {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+.teachers-name h4 {
+    font-size: 2rem;
+}
+
+.teachers-subject p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.5;
+}
+.rating p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #5a61e9;
+}
+
+
+
+
 
 
 
